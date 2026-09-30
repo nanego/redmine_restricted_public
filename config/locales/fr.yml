@@ -1,0 +1,5 @@
+fr:
+  field_restricted_public: "Public restreint"
+  label_project_publicity_public: "Public"
+  label_project_publicity_restricted: "Public restreint (utilisateurs internes uniquement)"
+  label_project_publicity_private: "Privé"

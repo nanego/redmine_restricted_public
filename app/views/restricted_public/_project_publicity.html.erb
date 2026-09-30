@@ -1,0 +1,10 @@
+<label><%= l(:field_is_public) %></label>
+<% disabled = !@project.safe_attribute?('publicity') %>
+<% RedmineRestrictedPublic::ProjectPatch::PUBLICITIES.each do |publicity| %>
+  <label class="inline">
+    <%= radio_button_tag 'project[publicity]', publicity, @project.publicity == publicity,
+                         :id => "project_publicity_#{publicity}", :disabled => disabled %>
+    <%= l("label_project_publicity_#{publicity}") %>
+  </label>
+<% end %>
+<br>
