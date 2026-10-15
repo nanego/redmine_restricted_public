@@ -1,5 +1,9 @@
 fr:
   field_restricted_public: "Public restreint"
   label_project_publicity_public: "Public"
-  label_project_publicity_restricted: "Public restreint (utilisateurs internes uniquement)"
+  label_project_publicity_restricted: "Public restreint"
   label_project_publicity_private: "Privé"
+  text_project_publicity_public_non_member: "Public : visible par toute personne authentifiée."
+  text_project_publicity_public_anonymous: "Public : visible par tous, y compris les visiteurs non authentifiés."
+  text_project_publicity_restricted: "Public restreint : visible par toute personne authentifiée reconnue comme utilisateur interne."
+  text_project_publicity_private: "Privé : visible seulement par les personnes authentifiées avec des droits sur le projet."

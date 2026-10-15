@@ -1,5 +1,9 @@
 en:
   field_restricted_public: "Restricted public"
   label_project_publicity_public: "Public"
-  label_project_publicity_restricted: "Restricted public (internal users only)"
+  label_project_publicity_restricted: "Restricted public"
   label_project_publicity_private: "Private"
+  text_project_publicity_public_non_member: "Public: visible to any authenticated user."
+  text_project_publicity_public_anonymous: "Public: visible to everyone, including anonymous visitors."
+  text_project_publicity_restricted: "Restricted public: visible to any authenticated user recognized as an internal user."
+  text_project_publicity_private: "Private: visible only to authenticated users with rights on the project."

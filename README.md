@@ -21,7 +21,7 @@ Adds a third project mode between public and private: a **restricted public** pr
 
 ## Project mode
 
-The "Public" checkbox of the project form becomes a choice between *Public*, *Restricted public (internal users only)* and *Private*, with the same permission (`select_project_publicity`). The mode can also be set through the API with `project[publicity]` (`public`, `restricted`, `private`) or `project[restricted_public]`.
+The "Public" checkbox of the project form becomes a choice between *Public*, *Restricted public* and *Private*, with the same permission (`select_project_publicity`), and its hint explains each mode. The mode can also be set through the API with `project[publicity]` (`public`, `restricted`, `private`) or `project[restricted_public]`.
 
 A restricted public project is stored as a private one (`is_public = false`) with `restricted_public = true`. Any code reading `is_public` directly (other plugins, news notifications, the `is_public` API field...) treats it as private: external users can never be given access by mistake, internal users may just get a narrower experience there. Setting `is_public` always clears `restricted_public`.
 
